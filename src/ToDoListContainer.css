@@ -1,0 +1,75 @@
+html{
+  background-color: #10a7b5
+}
+
+.to-do-list-wrapper {
+  display: grid;
+}
+
+.to-do-list-header-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-status-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.user-input-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.to-do-left-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.delete-all-toggle-all-button-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  background-color: #f2f2f2;
+}
+
