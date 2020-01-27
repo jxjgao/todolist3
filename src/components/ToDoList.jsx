@@ -1,12 +1,12 @@
 import React from 'react';
-import UserInputTextboxAndAddButton from './components/UserInputTextboxAndAddButton';
-import MarkCompleteAndDeleteToDoItemButton from './components/ToggleCompleteStatusAndDeleteToDoItemButton';
-import FilterByToDoItemStatusDropdown from './components/DropdownBox/FilterByToDoItemStatusDropdown';
-import ToggleAllCompleteAndIncompleteAndDeleteButton from './components/ToggleAllCompleteAndIncompleteAndDeleteButton'
-import ToDoListHeader from './components/ToDoListHeader/ToDoListHeader';
-import './ToDoListContainer.css'
+import UserInputTextboxAndAddButton from './UserInputTextboxAndAddButton';
+import MarkCompleteAndDeleteToDoItemButton from './ToggleCompleteStatusAndDeleteToDoItemButton';
+import FilterByToDoItemStatusDropdown from './DropdownBox/FilterByToDoItemStatusDropdown';
+import ToggleAllCompleteAndIncompleteAndDeleteButton from './ToggleAllCompleteAndIncompleteAndDeleteButton'
+import ToDoListHeader from './ToDoListHeader/ToDoListHeader';
+import './ToDoList.css'
 
-export default class ToDoListContainer extends React.Component {
+export default class ToDoList extends React.Component {
     constructor(props){
         super(props);
         this.state = {
